@@ -15,7 +15,7 @@ jobs:
       - image: circleci/ruby:2.7
     working_directory: ~/rails-docker-ks-test/src
     steps:
-      - checkout
+      - checkout:
           path: ~/rails-docker-ks-test
       - ruby/install-deps
 
